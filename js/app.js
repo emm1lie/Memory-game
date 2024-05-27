@@ -23,7 +23,7 @@ function reset(){
 
 shuffle()
 
-for (let index = 0; < flipcard.length; index++){
+for (let index = 0; < flipcard.length;index++){
   flipcard[index].addEventListener("click", (data) => ){
 
     if (firstclick ==="") {
@@ -81,7 +81,7 @@ for (let index = 0 < flipcard.length; index++){
       data.target.classList.add("active");
     }
   }
-  else{
+  else {
     console.log(firstclick.children[0].src)
     console.log(data.target.children[0].src)
   }
@@ -113,7 +113,7 @@ const memoryPictureUrls =
   "https://picsum.photos/seed/memory_3/300/300",
   "https://picsum.photos/seed/memory_4/300/300",
   "https://picsum.photos/seed/memory_5/300/300",
-  "https://picsum.photos/seed/memory_6/300/300",
+  "https://picsum.photos/seed/memory_6/300/300"
   
 
 // Step 2. Tilføj check om 2 billeder som er aktive matcher.
